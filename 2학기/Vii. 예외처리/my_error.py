@@ -11,6 +11,7 @@ try:
     if n % 2 != 0:
         raise OddError
     else:
+
         print("짝수에요 짞짞짞")
 except OddError as e:
     print(e)
