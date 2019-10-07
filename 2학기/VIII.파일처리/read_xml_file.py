@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import codecs
 
-f = open("movie.xml", "r", encoding="utf8")
+f = codecs.open('movie.xml', encoding="utf-8")
 data = f.read()
 print(data)
 tree = ET.ElementTree(ET.fromstring(data))
