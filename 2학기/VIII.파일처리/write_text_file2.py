@@ -1,4 +1,4 @@
-f = open("file.txt", "w", encoding="utf8")
+f = open("file.txt","a",encoding="utf8")    #a:append 이어붙이다  w:  덮어쓰다
 
 f.write("반갑다")
 f.write("\n")

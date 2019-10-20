@@ -7,11 +7,13 @@ price = SubElement(root, "price")
 ice = SubElement(root, "ice")
 sugar = SubElement(root, "sugar")
 pearl = SubElement(root, "pearl")
-
 name.text = "딸기 요거트"
 price.text = "3500"
-ice.text = "1" #50%
-sugar.text = "2" #100%
-pearl.text = "3" #타피오카
+ice.text = "1"      #50%
+sugar.text = "2"    #100%
+pearl.text = "1"    #타피오카
 
-ET.ElementTree(root).write("drink.xml", encoding="utf8", xml_declaration=False)
+
+ET.ElementTree(root).write("drink.xml",encoding="utf8",xml_declaration=False)
+
+
