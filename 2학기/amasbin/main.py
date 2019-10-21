@@ -20,4 +20,4 @@ o = Order()
 o.order_drink()
 
 #history에 저장하자
-file_Manager.save(o.order_menu)
+file_Manager.save(history + o.order_menu)
