@@ -1,7 +1,6 @@
 from tictacto import TicTacToe
 import tkinter
-from tkinter import messagebox
-import math
+from tictacto import messagebox
 
 class Game_Manager:
     def __init__(self):

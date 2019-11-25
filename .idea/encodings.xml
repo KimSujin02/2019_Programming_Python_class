@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/2학기/VIII.파일처리/file.txt" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/WhatsInMyCloset_project/wimc.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WhatsInMyCloset_project/봄.txt" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
