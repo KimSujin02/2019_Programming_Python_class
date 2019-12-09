@@ -1,6 +1,6 @@
 import json
 
-from bs4 import BeautifulSoup       #html 구조적으로 변환하기
+from bs4 import BeautifulSoup
 from urllib.request import urlopen  #url에 해당하는 html 가져오기
 
 import requests
