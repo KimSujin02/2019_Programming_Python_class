@@ -20,16 +20,3 @@ if __name__ == '__main__':
     prettyHtml = str(output.prettify())     #html 줄 예쁘게
     with open("취향저격그녀.html", mode="w", encoding="utf-8") as f:
         f.write(prettyHtml)
-
-    # cartoon_titles = soup.find_all("td", attrs={'class':'title'})   #<td class="title">
-    # html = "<html><head><meta charset='utf-8'></head><body>"
-    # for title in cartoon_titles:
-    #     t = title.find('a').text            #제목
-    #     link = "http://comic.naver.com/" + title.find('a').get('href')  #링크
-    #     html += "<a href=%s>%s</a><br>" % (link, t)
-    # html += "</body></html>"
-    # output = BeautifulSoup(html, "lxml")    #htmlstring -> BeautifulSoup 객체
-    # prettyHtml = str(output.prettify())     #html 줄 예쁘게
-    #
-    # with open("cellsOfYumi.html", mode="w", encoding="utf-8") as f:
-    #     f.write(prettyHtml)
